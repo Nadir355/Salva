@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Salva</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/46a0bc0131.js" crossorigin="anonymous"></script>
+</head>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/salva2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <span id="element"></span>
+                <h1>I am <span>Salva</span> <br> from Pakistan</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About   -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Img/sal.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I'm Salva, a final year IT student from Pakistan passionate about web development. Specializing in front-end development, I enjoy crafting engaging user experiences through clean and intuitive designs. My journey in web development is driven by a commitment to learning and creating impactful digital solutions.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">experiences</p>
+                        <p class="tab-links" onclick="opentab('eduction')">Eduction</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web dev</span><br>front-end developer </li>
+                            <li><span>Python</span><br>Skillfull In python Coding</li>
+                            <li><span>FrameWorks</span><br>Proficient in utilizing front-end frameworks like Bootstrap and React to streamline development and enhance user interfaces.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022</span><br>Experienced in creating responsive and visually appealing front-end designs using HTML, CSS, and JavaScript.
+
+                            </li>
+                            <li><span>2019</span><br>SDedicated to continuous learning through online courses, expanding skills in modern web technologies and frameworks.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="eduction">
+                        <ul>
+                            <li><span>2022</span><br> MBBS Campus Dadu IT Dep</li>
+                            <li><span>Course</span><br>DIT course From course</li>
+                        </ul>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------Services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-node-js"></i>
+                    <h2>Web dev</h2>
+                    <p>Offering tailored solutions in front-end development, including responsive design, UI/UX enhancements, and website optimization.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python</h2>
+                    <p>Additionally skilled in Python programming for backend development, automation, and data analysis tasks.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-phoenix-framework"></i>
+                    <h2>Framework</h2>
+                    <p>Skilled in utilizing front-end frameworks such as Bootstrap and React to create responsive and dynamic web applications with enhanced user interfaces.
+
+
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+               <!--portfolio-->
+    <div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="img/IMG_20240620_193151.jpg" width="500px" >
+            <div class="layer">
+                <h3>Nikki Air Max Website</h3>
+                <p>Explore our Nikki website, where we showcase creativity and purpose through innovative design and curated content, aimed at enhancing your experience and inspiration</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="img/IMG_20240621_154017.jpg"  width="500px"  >
+            <div class="layer">
+                <h3>Login Page </h3>
+                <p>a login page typically serves as the gateway to a secure digital platform, requiring users to authenticate their identity through credentials like username and password.</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="img/IMG_20240620_193253.jpg" width="500px">
+            <div class="layer">
+                <h3>Google Clown</h3>
+                <p>
+                    Google is a multinational technology company known for its search engine, offering a wide range of internet-related services and products globally.</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+</div>
+
+</div>
+          <!--------------Contact------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> example@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 03111111111</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/princenadir.ali.54"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/nadirali2232?igsh=MTUxaG0zYmkwemxqaA=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="03111795658"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="img/index.html " download class="btn btn2" >Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Salva Ali Made For <i class="fa-solid fa-heart"></i> You Guys</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links")
+        var tabcontents=document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzTsPAv8QIyGEHn8NdXPBPTKdWIFSLMqd-KbU4Jb-0tjADghHEdlPP47J7lBN90TA0xZg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message Sent Succesfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <script>
+        var typed = new Typed('#element', {
+          strings: ['<i></i> Web Devoloper', ' Pyhton ','Web Designer '],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
